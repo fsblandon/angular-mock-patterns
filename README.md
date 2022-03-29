@@ -7,9 +7,11 @@
 
 # Pasos para realizar ejercicio
 
-1. Crear componente para lista de patrones estructurales `ng generate component ./components/estructurales`.
-2. Busca el archivo `estructurales.component.ts` y en el importe el archivo `mock.estructurales.ts` y asignalo a una constante dentro del metodo ngOnInit, puedes revisar el archivo `creacionales.component.ts`.
-3. Use ngFor para recorrer la lista de patrones estructurales, para esto puedes mirar el archivo `creacionales.component.html`.
+La idea ahora es añadir en un componente de angular listar los patrones estructurales y pintarlos debajo de los creacionales
+
+1. Crea un componente para lista de patrones estructurales `ng generate component ./components/estructurales`.
+2. Busca el archivo `estructurales.component.ts` y en el importe el archivo `mock.estructurales.ts` y asignalo a un atribulo tipo lista dentro del metodo ngOnInit, puedes revisar el archivo `creacionales.component.ts`.
+3. Usa ngFor para recorrer la lista de patrones estructurales, para esto puedes mirar el archivo `creacionales.component.html`.
 4. Ahora añade el tag `<app-estructurales></app-estructurales>` en `app.componente.html` debajo del `<app-creacionales></app-creacionales>`
 
 ## Further help
