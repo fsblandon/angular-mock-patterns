@@ -1,26 +1,16 @@
-# MockPatterns
+# Ejecutar aplicación
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.1.
+1. Descargar zip del proyecto o clonar el repositorio en la rama main `git clone https://github.com/fsblandon/angular-mock-patterns.git`
+2. Entrar al directorio del proyecto `cd angular-mock-patterns`
+3. Instalar dependencias `npm i`
+4. Ejecutar la aplicación `ng serve -o`
 
-## Development server
+# Pasos para realizar ejercicio
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Crear componente para lista de patrones estructurales `ng generate component ./components/estructurales`.
+2. Busca el archivo `estructurales.component.ts` y en el importe el archivo `mock.estructurales.ts` y asignalo a una constante dentro del metodo ngOnInit, puedes revisar el archivo `creacionales.component.ts`.
+3. Use ngFor para recorrer la lista de patrones estructurales, para esto puedes mirar el archivo `creacionales.component.html`.
+4. Ahora añade el tag `<app-estructurales></app-estructurales>` en `app.componente.html` debajo del `<app-creacionales></app-creacionales>`
 
 ## Further help
 
