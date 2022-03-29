@@ -1,6 +1,6 @@
 import { Pattern } from "../models/pattern.model";
 
-export const COMPORTAMENTALES: Pattern[] = [
+export const ESTRUCTURALES: Pattern[] = [
   {id: 1, name: 'Bridge'},
   {id: 2, name: 'Composite'},
   {id: 3, name: 'Decorator'},
